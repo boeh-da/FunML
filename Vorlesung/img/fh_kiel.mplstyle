@@ -1,0 +1,51 @@
+# Adapted by Daniel Boehnke to match FH Kiel Coorporate Design
+
+#Author: Cameron Davidson-Pilon, replicated styles from FiveThirtyEight.com
+# See https://www.dataorigami.net/blogs/fivethirtyeight-mpl
+
+lines.linewidth: 4
+lines.solid_capstyle: butt
+
+lines.markersize : 12
+
+legend.fancybox: false
+legend.shadow: false
+legend.fontsize: large
+
+axes.prop_cycle: cycler('color', ['30414D', 'E3AB44', 'C55024', '8AC769', '857878', '7AB51D', 'B5123E'])
+axes.facecolor: ffffff
+axes.labelsize: large
+axes.axisbelow: true
+axes.grid: true
+axes.edgecolor: 000000
+axes.spines.top: false
+axes.spines.right: false
+axes.linewidth: 3.0
+axes.titlesize: x-large
+
+patch.edgecolor: ffffff
+patch.linewidth: 0.5
+
+svg.fonttype: path
+
+grid.linestyle: -
+grid.linewidth: 1.0
+grid.color: cbcbcb
+
+xtick.major.size: 8
+xtick.minor.size: 0
+ytick.major.size: 8
+ytick.minor.size: 0
+
+font.size: 16
+
+savefig.edgecolor: ffffff
+savefig.facecolor: ffffff
+
+figure.subplot.left: 0.08
+figure.subplot.right: 0.95
+figure.subplot.bottom: 0.07
+
+figure.facecolor: ffffff
+figure.titlesize: xx-large
+figure.titleweight: bold

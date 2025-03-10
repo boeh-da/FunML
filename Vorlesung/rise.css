@@ -1,0 +1,30 @@
+/* this is for styling the overlay
+ * when using header / footer and backimage
+ *
+ * see metadata in notebook
+ */
+
+#rise-header {
+    margin: 10px;
+    left: 10%;
+}
+
+#rise-footer {
+    margin: 10px;
+    right: 10%;
+}
+
+#rise-backimage {
+    opacity: 1.0;
+    background-position: right top;
+    position: right top;
+    right: 10%
+}
+
+/* TODO: maybe we need to port this to main.css?  */
+.reveal img {
+    max-width: 20%;
+    position: right top;    
+    background-position: right top;
+    right: 10%
+}
